@@ -1,0 +1,32 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity compare_numbers is
+port( a,b,c,d: in std_logic_vector (15 downto 0); 
+      rst,clk: in std_logic;
+		max,min: out std_logic_vector (15 downto 0)
+	 );
+end compare_numbers;
+architecture bhv of compare_numbers is
+   type states is(s0,...);
+   signal cs,ns : states;
+begin
+	process(rst,clk)
+	begin
+	end process;
+	
+	
+	process(cs,...)
+	begin
+	
+	   case cs is
+		           when s0 =>
+					  .
+					  .
+					  .
+					  
+		end case;
+	end process;
+	end bhv;
+	
+
+ 
